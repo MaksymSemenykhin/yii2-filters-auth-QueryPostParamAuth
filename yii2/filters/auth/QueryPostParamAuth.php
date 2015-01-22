@@ -7,7 +7,7 @@ use Yii;
  * QueryPostParamAuth is an action filter that supports the authentication based on the access token passed through a post parameter.
  * Name of post parameter holds in backend config  params
  *
- * @author fltmats  <semenihin.maksim@gmail.com>
+ * @author ftlmars  <semenihin.maksim@gmail.com>
  * @since 2.0
  */
 class QueryPostParamAuth extends AuthMethod
