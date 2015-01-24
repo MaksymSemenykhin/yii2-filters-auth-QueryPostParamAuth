@@ -1,7 +1,8 @@
 <?php
-namespace yii\filters\auth;
+namespace yii\filters\auth\QueryPostParamAuth;
 
 use Yii;
+//use \yii\filters\auth;
 
 /**
  * QueryPostParamAuth is an action filter that supports the authentication based on the access token passed through a post parameter.
@@ -10,7 +11,7 @@ use Yii;
  * @author ftlmars  <semenihin.maksim@gmail.com>
  * @since 2.0
  */
-class QueryPostParamAuth extends AuthMethod
+class QueryPostParamAuth extends \yii\filters\auth\AuthMethod
 {
 
     /**
