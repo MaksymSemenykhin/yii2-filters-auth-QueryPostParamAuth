@@ -1,6 +1,5 @@
-/**
-* @url https://github.com/ftlmars/yii2-filters-auth-QueryPostParamAuth 
-*/
+@url https://github.com/ftlmars/yii2-filters-auth-QueryPostParamAuth 
+
 
 # yii2-filters-auth-QueryPostParamAuth
 QueryPostParamAuth is an action filter that supports the authentication based on the access token passed through a post parameter.
