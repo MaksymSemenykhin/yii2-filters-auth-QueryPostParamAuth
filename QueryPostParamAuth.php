@@ -23,6 +23,7 @@ class QueryPostParamAuth extends \yii\filters\auth\AuthMethod
         if (is_string($accessToken)) {
             $identity = $user->loginByAccessToken($accessToken, get_class($this));
             if ($identity !== null) {
+                $identity->access_token = $accessToken;                
                 return $identity;
             }
 
